@@ -2,9 +2,10 @@
 Arquivos feitos durante a primeira edição da Next Level Week da Rocketseat
 
 # Tela inicial do projeto: ![picture alt](https://user-images.githubusercontent.com/38081852/83580830-6f63e200-a513-11ea-9a27-0a109ec1e4d0.png)
-# Logo do evento: ![picture alt](https://cdn.dribbble.com/users/1986561/screenshots/11226328/nlw_dribbble.png)
+# Logo do evento:
 <img src="https://cdn.dribbble.com/users/1986561/screenshots/11226328/nlw_dribbble.png"  width="400" height="300">
-# [Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg): ![picture alt](https://miro.medium.com/max/2400/1*fs0ScMc45X9QEwno8G414A.png)
-<img src="https://miro.medium.com/max/2400/1*fs0ScMc45X9QEwno8G414A.png"  width="400" height="300">
+
+# [Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg):
+<img src="https://miro.medium.com/max/2400/1*fs0ScMc45X9QEwno8G414A.png"  width="400" height="200">
 
 # LeonardoZanotti
