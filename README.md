@@ -24,12 +24,12 @@ Pronto, o projeto está instalado :)
 
 # Hospedando o projeto
 
-Para iniciar o backend, use o seguinte comando dentro da pasta server:
+### Para iniciar o backend, use o seguinte comando dentro da pasta server:
 
 ``` npm run dev ```
 
 
-Para iniciar o frontend, use o seguinte comando dentro da pasta web:
+### Para iniciar o frontend, use o seguinte comando dentro da pasta web:
 
 ``` npm start ```
 
@@ -37,10 +37,10 @@ Para iniciar o frontend, use o seguinte comando dentro da pasta web:
 
 
 
-Para usar o app, é necessário usar um emulador ou o [Expo](https://expo.io) no seu dispositivo.
+## Para usar o app, é necessário usar um emulador ou o [Expo](https://expo.io) no seu dispositivo.
 
 
-Para iniciar o mobile, use o seguinte comando dentro da pasta mobile:
+### Para iniciar o mobile, use o seguinte comando dentro da pasta mobile:
 
 ``` npm start ```
 
