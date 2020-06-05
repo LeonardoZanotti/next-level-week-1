@@ -28,11 +28,13 @@ Para iniciar o backend, use o seguinte comando dentro da pasta server:
 
 ``` npm run dev ```
 
+
 Para iniciar o frontend, use o seguinte comando dentro da pasta web:
 
 ``` npm start ```
 
-**Use dois terminais para executar os comandos**
+* **Use dois terminais para executar os comandos**
+
 
 Para usar o app, é necessário usar um emulador ou o [Expo](https://expo.io) no seu dispositivo.
 
