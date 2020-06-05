@@ -23,17 +23,16 @@ Para semear o banco de dados:
 Pronto, o projeto está instalado :)
 
 # Hospedando o projeto
-Para acessar o site é necessário os seguintes comandos:
 
-``` Para iniciar o backend, use o seguinte comando dentro da pasta server: ```
+Para iniciar o backend, use o seguinte comando dentro da pasta server:
 
 ``` npm run dev ```
 
-``` Para iniciar o frontend, use o seguinte comando dentro da pasta web: ```
+Para iniciar o frontend, use o seguinte comando dentro da pasta web:
 
 ``` npm start ```
 
-** Use dois terminais para executar os comandos **
+**Use dois terminais para executar os comandos**
 
 Para usar o app, é necessário usar um emulador ou o [Expo](https://expo.io) no seu dispositivo.
 
