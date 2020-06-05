@@ -36,9 +36,11 @@ Para iniciar o frontend, use o seguinte comando dentro da pasta web:
 * **Use dois terminais para executar os comandos**
 
 
+
 Para usar o app, é necessário usar um emulador ou o [Expo](https://expo.io) no seu dispositivo.
 
-``` Para iniciar o mobile, use o seguinte comando dentro da pasta mobile: ```
+
+Para iniciar o mobile, use o seguinte comando dentro da pasta mobile:
 
 ``` npm start ```
 
