@@ -11,7 +11,7 @@ Arquivos feitos durante a primeira edição da Next Level Week da Rocketseat
 
 # Instalação
 
-Primeiramente na pasta raíz deve-se usar o comando
+Primeiramente, entra em cada uma das três pastas e execute o comando
 ``` npm install ```
 
 Feito isso, na pasta server é necessário criar o banco de dados. Para criá-lo use o seguinte comando:

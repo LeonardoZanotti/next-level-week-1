@@ -1,22 +1,20 @@
 import React from 'react';
-// import { AppLoading } from 'expo';
+import { useFonts } from '@use-expo/font';
 import { StatusBar } from 'react-native';
-
-// import { Roboto_400Regular, Roboto_500Medium } from '@expo-google-fonts/roboto';
-// import { Ubuntu_700Bold, useFonts } from '@expo-google-fonts/ubuntu';
+import { AppLoading } from 'expo';
 
 import Routes from './src/routes';
 
 export default function App() {
-  // const [fontsLoaded] = useFonts([
-  //   Roboto_400Regular,
-  //   Roboto_500Medium,
-  //   Ubuntu_700Bold
-  // ]);
+  const [fontsLoaded] = useFonts({
+    'Roboto_400Regular': require('./src/assets/fonts/Roboto-Regular.ttf'),
+    'Roboto_500Medium': require('./src/assets/fonts/Roboto-Medium.ttf'),
+    'Ubuntu_700Bold': require('./src/assets/fonts/Ubuntu-Bold.ttf')
+  });
 
-  // if(!fontsLoaded) {
-  //   return <AppLoading />
-  // };
+  if(!fontsLoaded) {
+    return <AppLoading />
+  };
 
   return (
     <>
