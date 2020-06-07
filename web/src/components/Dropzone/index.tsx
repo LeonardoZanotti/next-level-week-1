@@ -10,7 +10,7 @@ interface Props {
 
 const Dropzone: React.FC<Props> = ({ onFileUploaded }) => {
     const [selectedFileUrl, setSelectedFileUrl] = useState('');
-
+        
     const onDrop = useCallback(acceptedFiles => {
         const file = acceptedFiles[0];
 
@@ -23,6 +23,10 @@ const Dropzone: React.FC<Props> = ({ onFileUploaded }) => {
             onDrop,
             accept: 'image/*'
         })
+
+    if (selectedFileUrl === '') {
+        setSelectedFileUrl('https://images.unsplash.com/photo-1543083477-4f785aeafaa9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    }
 
     return (
         <div className="dropzone" {...getRootProps()}>

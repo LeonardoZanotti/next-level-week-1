@@ -25,8 +25,8 @@ interface Point {
 }
 
 interface Params {
-  uf: string;
-  city: string;
+  selectedUf: string;
+  selectedCity: string;
 }
 
 const Points = () => {
@@ -69,8 +69,8 @@ const Points = () => {
     useEffect(() => {
       api.get('points', {
         params: {
-          uf: routeParams.uf,
-          city: routeParams.city,
+          uf: routeParams.selectedUf,
+          city: routeParams.selectedCity,
           items: selectedItems
         }
       }).then(response => {
